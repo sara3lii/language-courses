@@ -1,0 +1,134 @@
+/* Fonts */
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #061d44 !important;
+  }
+  
+  /* General Section Padding */
+  section {
+    padding: 60px 0;
+  }
+  
+  /* Banner Section */
+  .banner {
+    position: relative;
+    min-height: 350px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Specific Banner Backgrounds */
+  .banner-english {
+    background-image: url('img/بانر\ انجلش.png');
+  }
+  
+  .banner-german {
+    background-image: url('assets/images/banner-german.jpg');
+  }
+  
+  .banner-french {
+    background-image: url('assets/images/banner-french.jpg');
+  }
+  
+  .banner-chinese {
+    background-image: url('assets/images/banner-chinese.jpg');
+  }
+  
+  .banner-italian {
+    background-image: url('assets/images/banner-italian.jpg');
+  }
+  
+  .banner-hindi {
+    background-image: url('assets/images/banner-hindi.jpg');
+  }
+  
+  .banner-turkish {
+    background-image: url('assets/images/banner-turkish.jpg');
+  }
+  
+  .banner-arabic {
+    background-image: url('assets/images/banner-arabic.jpg');
+  }
+  
+  /* Course Cards */
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Back to Home Button */
+  .back-to-home {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0048BA;
+    color: white;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    z-index: 9999;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .back-to-home:hover {
+    background-color: #003580;
+    text-decoration: none;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #0048BA;
+    padding: 20px;
+    font-size: 16px;
+  }
+/* Horizontal Scroll Courses */
+.courses-scroll {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: #0048BA #e0e0e0;
+  }
+  
+  .courses-scroll::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .courses-scroll::-webkit-scrollbar-thumb {
+    background-color: #0048BA;
+    border-radius: 20px;
+  }
+  
+  .courses-scroll::-webkit-scrollbar-track {
+    background: #e0e0e0;
+  }
+    
